@@ -1,0 +1,10 @@
+{
+  "tailwindCSS.experimental.configFile": {
+    // If you comment this first line, the autocomplete works for `specific`
+    "./main-brand.tailwind.config.js": ["pages/**/*", "components/**/*"],
+    "specific-styles.tailwind.config.js": ["pages/specific-pages/**/*", "components/specific-components/**/*"]
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
